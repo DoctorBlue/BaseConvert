@@ -1,0 +1,20 @@
+{
+	"name": "doctorblue/baseconvert",
+	"description": "Simple base conversion class for conversion between arbitrary bases and with predefined wrappers for decimal, hexadecimal and bitcoin-compatible base58.",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Doctor Blue",
+			"email": "webmaster@doctor-blue.net",
+		}
+	],
+	"require": {
+		"php": ">=5.3",
+		"ext-bcmath": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"DoctorBlue\\": "src/"
+		}
+	}
+}

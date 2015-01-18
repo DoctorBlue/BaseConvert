@@ -1,5 +1,5 @@
 <?php
-	namespace \DoctorBlue;
+	namespace DoctorBlue;
 
 	/**
 	 * This library facilitates conversions between base 10 and 16

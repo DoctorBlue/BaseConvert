@@ -1,0 +1,8 @@
+build_settings:
+    ignore:
+        - "tests"
+
+test:
+    php_unit:
+        directory:
+            - "tests/"

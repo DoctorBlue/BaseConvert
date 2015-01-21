@@ -12,6 +12,10 @@
 		"php": ">=5.3",
 		"ext-bcmath": "*"
 	},
+	"require-dev": {
+		"codeclimate/php-test-reporter": "dev-master",
+		"phpunit/phpunit": "~4.4.2"
+	},
 	"autoload": {
 		"psr-4": {
 			"DoctorBlue\\": "src/"

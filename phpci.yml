@@ -1,0 +1,13 @@
+build_settings:
+    ignore:
+        - "tests"
+
+test:
+    php_unit:
+        directory:
+            - "tests/"
+    php_loc:
+        directory: "src/"
+    php_docblock_checker:
+        allowed_warnings: 0
+        path: "src/"

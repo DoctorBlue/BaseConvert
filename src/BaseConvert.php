@@ -11,7 +11,6 @@
 	 * Octal 74 (decimal 60) can be converted back to decimal:
 	 * BaseConvert::decode(74, "01234567"); // Returns "60"
 	 */
-
 	class BaseConvert {
 		/**
 		 * encode

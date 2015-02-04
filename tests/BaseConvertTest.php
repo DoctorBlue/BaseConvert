@@ -1,5 +1,5 @@
 <?php
-	require __DIR__ . "/../src/BaseConvert.php";
+	require __DIR__ . "/../src/DoctorBlue/BaseConvert.php";
 	use \DoctorBlue\BaseConvert;
 
 	class BaseConvertTest extends PHPUnit_Framework_TestCase {

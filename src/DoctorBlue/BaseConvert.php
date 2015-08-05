@@ -62,7 +62,7 @@
 			for($i=0; $i < $cnt; $i++) {
 				$pos = strpos($basestr, $num_arr[$i]);
 				if( $pos === false ) {
-					Throw new Exception(sprintf('Unknown character %s at offset %d', $num_arr[$i], $i));
+					Throw new \Exception(sprintf('Unknown character %s at offset %d', $num_arr[$i], $i));
 				}
 				$dec = bcadd(bcmul($dec, $base), $pos);
 			}
